@@ -1,0 +1,53 @@
+.containerDiv{
+
+display: flex;
+/*flex-direction: row;*/
+flex-wrap: wrap;
+}
+.head{
+ 
+    flex: 100%;
+    height: 200px;
+    background-color: black;
+}
+.sideDiv{
+flex: 30%;
+max-width: 200px;
+height: 400px;
+background-color: salmon;
+
+}
+.content{
+    flex: 40%;
+    height: 400px;
+    background-color: rgb(135, 184, 199);
+}
+.footer{
+    flex: 100%;
+    height: 300px;
+    background-color: olive;
+
+}
+.rightSide{
+flex: 30%;
+max-width: 200px;
+height: 400px;
+background-color:rgb(151, 144, 144);
+max-width: 200px;
+}
+@media screen and (max-width:600px){
+.containerDiv{
+    flex-direction: column;
+        
+    }.sideDiv,.content,.rightSide{
+        width: 100%;
+        max-width: none;
+    }
+
+   
+}
+
+
+
+
+    

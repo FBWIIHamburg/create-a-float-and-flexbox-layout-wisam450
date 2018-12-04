@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+/* .body{
+    height: 100vh;
+    margin: 0px;
+} */
+
+.flexContainer{
+display: flex;
+/* background-color: black; */
+height: 100vh;
+}
+
+.nav{
+flex:1;
+background-color: aqua;
+
+}
+.main{
+ 
+flex:4;
+
+background-color:bisque;
+flex-direction: column;
+display: flex;
+
+}
+.header{
+background-color: green;
+flex:1;
+max-height: 20vh;
+
+
+}
+.content{
+/* background-color: white; */
+display: flex;
+flex-direction: row;
+flex:1;
+
+}
+.footer{
+background-color: green;
+flex: 3;
+max-height: 20vh;
+}
+
+.content>.article{
+background-color: coral;
+flex: 3;
+/* overflow:scroll;
+overflow-x: hidden */
+
+}
+.content>.aside{
+    background-color: cornflowerblue;
+    flex: 1;
+}
